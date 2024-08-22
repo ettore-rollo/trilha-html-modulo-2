@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papilon Vet - Contato</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Página Principal</a></li>
+                <li><a href="about.html">Sobre a clínica</a></li>
+                <li><a href="service.html">Horário de Atendimento</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <div class="header">
+                    <img src="img/4.png" width="100%" alt="Banner da página de contatos" title="Papilonvet Banner">
+                </div>
+            </div>
+    
+            <div class="content">
+                <form title="Contato" method="POST">
+                    <fieldset title="Campo de Dados Pessoais">
+                        <legend>Dados Pessoais</legend>
+                        <div class="contato">
+                            <label for="name">Nome</label>
+                            <input required id="name" type="text" />
+                            <label for="last-name">Sobrenome</label>
+                            <input required id="last-name" type="text" />
+                            <label for="cpf">CPF</label>
+                            <input required id="cpf" type="text" />
+                        </div>
+                        <div class="contato">
+                            <label for="email">Email</label>
+                            <input required id="email" type="email" />
+                            <label for="email2">Email 2</label>
+                            <input required id="email2" type="email" />
+                            <label for="phone">Telefone</label>
+                            <input required id="phone" type="number" />
+                        </div>
+                        <div>
+                            <label for="newsletter">Receber newsletter?</label>
+                            <input type="checkbox" id="newsletter">
+                        </div>
+                    </fieldset>
+                    <fieldset title="Campo de Endereço">
+                        <legend>Endereço</legend>
+                        <div class="contato">
+                            <label for="street">Rua</label>
+                            <input required id="street" type="text" />
+                            <label for="district">Bairro</label>
+                            <input required id="district" type="text" />
+                            <label for="city">Cidade</label>
+                            <input required id="city" type="text" />
+                        </div>
+                        <div class="contato">
+                            <label for="state">Estado</label>
+                            <input required id="state" type="text" />
+                            <label for="country">País</label>
+                            <select required id="country">
+                                <option selected value="">Selecione</option>
+                                <option value="br">Brasil</option>
+                                <option value="us">Estados Unidos</option>
+                                <option value="fr">França</option>
+                                <option value="es">Espanha</option>
+                                <option value="pt">Portugal</option>
+                                <option value="arg">Argentina</option>
+                            </select>
+                            <label for="cep">CEP</label>
+                            <input required id="cep" type="number" />
+                        </div>
+                        <div>
+                            <label for="complement">Complemento</label>
+                        </div>
+                        <div>
+                            <textarea cols="20" rows="5" id="complement"></textarea>
+                        </div>
+                    </fieldset>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </form>
+            </div>
+
+            <div class="footer">
+                <p>www.papilonvet.org</p>
+                <p>+123-456-789</p>
+                <p>Todos os direitos reservados para <i>papilon</i></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
